@@ -10,7 +10,7 @@
 
 	<version>1</version>
 
-	<description>Play Reversi against a friend.</description>
+	<description>A one or two player Reversi game.</description>
 
 	<!-- <copyright></copyright> -->
 
@@ -20,7 +20,7 @@
 		<aspectRatio>landscape</aspectRatio>
 		<content>[This value will be overwritten by Flash Builder in the output app.xml]</content>
 		<title>Reversi</title>
-		<systemChrome>standard</systemChrome>
+		<systemChrome>none</systemChrome>
 		<transparent>false</transparent>
 		<visible>true</visible>
 
