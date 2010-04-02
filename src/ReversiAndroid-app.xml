@@ -4,11 +4,11 @@
 	<id>com.christiancantrell.reversiandroid</id>
 	<supportedProfiles>desktop mobileDevice</supportedProfiles>
 
-	<filename>ReversiAndroid</filename>
+	<filename>iReverse</filename>
 
-	<name>ReversiAndroid</name>
+	<name>iReverse</name>
 
-	<version>1</version>
+	<version>0.9</version>
 
 	<description>A one or two player Reversi game.</description>
 
