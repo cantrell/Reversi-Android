@@ -1,51 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<application xmlns="http://ns.adobe.com/air/application/2.0">
-
-	<id>com.christiancantrell.reversiandroid</id>
+<application xmlns="http://ns.adobe.com/air/application/2.5">
+	<id>com.christiancantrell.ireverse.android</id>
 	<supportedProfiles>desktop mobileDevice</supportedProfiles>
-
 	<filename>iReverse</filename>
-
 	<name>iReverse</name>
-
-	<version>0.9</version>
-
+	<versionNumber>1.0</versionNumber>
 	<description>A one or two player Reversi game.</description>
-
-	<!-- <copyright></copyright> -->
-
 	<initialWindow>
 		<autoOrients>true</autoOrients>
 		<fullScreen>true</fullScreen>
-		<aspectRatio>landscape</aspectRatio>
 		<content>[This value will be overwritten by Flash Builder in the output app.xml]</content>
-		<title>Reversi</title>
+		<title>iReverse</title>
 		<systemChrome>none</systemChrome>
 		<transparent>false</transparent>
 		<visible>true</visible>
-
-		<!-- <minimizable></minimizable> -->
-		<!-- <maximizable></maximizable> -->
-		<!-- <resizable></resizable> -->
-
-		<!-- Landscape -->
-		<width>854</width>
-		<height>480</height>
-
-		<!-- Portrait -->
-		<!--
-		<width>480</width>
-		<height>854</height>
-		-->
-
-		<!-- <x></x> -->
-		<!-- <y></y> -->
-		<!-- <minSize></minSize> -->
-		<!-- <maxSize></maxSize> -->
 	</initialWindow>
-
 	<icon>
-		<image57x57>assets/Icon.png</image57x57>
+		<image36x36>assets/Icon_36.png</image36x36>
+		<image48x48>assets/Icon_48.png</image48x48>
+		<image72x72>assets/Icon_72.png</image72x72>
 	</icon>
 
+	<android>
+		<manifestAdditions> 
+			<![CDATA[
+				<manifest android:installLocation="auto"/>
+			]]>
+		</manifestAdditions>
+	</android>
+	
 </application>
