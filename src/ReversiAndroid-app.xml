@@ -24,7 +24,9 @@
 	<android>
 		<manifestAdditions> 
 			<![CDATA[
-				<manifest android:installLocation="auto"/>
+				<manifest android:installLocation="auto">
+					<uses-permission android:name="android.permission.INTERNET"/>
+				</manifest>
 			]]>
 		</manifestAdditions>
 	</android>
